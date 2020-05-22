@@ -2,7 +2,7 @@
 Daily journal to share your thoughts, ideas, and interesting reads.
 
 ## Getting Started
-- The App is currently hosted on Heroku. For a quick peek visit [Daily Journal]().
+- The App is currently hosted on Heroku. For a quick peek visit [Daily Journal](https://rocky-bastion-66301.herokuapp.com/).
 - To build this project locally, follow steps given below.
 
 ### Prerequisites
@@ -43,6 +43,8 @@ $ node app.js
 
 ## Learnings
 - This project demonstrates how to:
+  - Connect to mongoDB database using mongoose.
+  - Perform Create, Read, Delete operations on mongoDB collections
   - Export functions/variables from a module
   - Import functions/variables into a module
   - Use Embedded Javasciprt(EJS) to define views
