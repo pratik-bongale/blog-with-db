@@ -7,7 +7,8 @@ Daily journal to share your thoughts, ideas, and interesting reads.
 
 ### Prerequisites
 - Node, npm
-- Mongodb CLI locally installed
+- MongoDB Atlas account(free account works)
+  - Visit [getting started guide](https://docs.atlas.mongodb.com/getting-started/) for steps of setting up your free cluster in the cloud.
 
 ### Installing
 Clone this repository. 
@@ -25,14 +26,19 @@ Install all dependencies
 $ npm install
 ```
 
-Run app
+Rename ".env_sample" to ".env"
 ```
-$ node app.js
+$ mv .env_sample .env
 ```
 
-Visit localhost 
+Modify ".env", replace the MongoDB connection string with your own generated in your MongoDB Atlas account.
 ```
-Go to https://localhost:3000/
+MONGODB_CONN=mongodb+srv://username:password@cluster0-in9xt.mongodb.net/todolistDB
+```
+
+Run app locally
+```
+$ node app.js
 ```
 
 ## Learnings
